@@ -263,6 +263,10 @@ footer .row p{
 
 
 @media (max-width: 576px) {
+    body{
+        background: url(fundo3.jpg) fixed repeat-y top center;
+        
+    }
     h2{
         font-size: 30px ;
     } 
