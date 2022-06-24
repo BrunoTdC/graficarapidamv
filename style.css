@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
 body{
     background: url(fundo3.jpg) fixed no-repeat top center;
-    
+    -webkit-background: url(fundo3.jpg) fixed no-repeat top center;
+    -moz-background: url(fundo3.jpg) fixed no-repeat top center;
 }
 header .container .logo{
     background: url(LOGO2.png) no-repeat;
@@ -58,6 +59,8 @@ section{
 #home .carousel-item .botao-carousel .cor:hover{
     background-color: #127c1b;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
  }
 
 .chamada{
@@ -139,26 +142,39 @@ p{
 #categorias .titulo-categorias1 a:hover{
     background: url(cate_1_1.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
 }
 #categorias .titulo-categorias2 a:hover{
     background: url(cate_2_2.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    
 }
 #categorias .titulo-categorias3 a:hover{
     background: url(cate_3_3.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
 }
 #categorias .titulo-categorias4 a:hover{
     background: url(cate_4_4.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
 }
 #categorias .titulo-categorias5 a:hover{
     background: url(cate_5_5.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
 }
 #categorias .titulo-categorias6 a:hover{
     background: url(cate_6_6.png) no-repeat;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
 }
 #btn-whats {
    position: fixed;
@@ -180,7 +196,9 @@ p{
  }
  #btn-whats img:hover {
     width: 75px;
-    transition: 00.4s;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
    
  }
 
@@ -236,6 +254,8 @@ footer .row p{
 .caixa-p-contato:hover{
     background-color: #127c1b;
     transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
     
 
 }
@@ -265,6 +285,8 @@ footer .row p{
 @media (max-width: 576px) {
     body{
         background: url(fundo3.jpg) fixed repeat-y top center;
+        -webkit-background: url(fundo3.jpg) fixed repeat-y top center;
+        -moz-background: url(fundo3.jpg) fixed repeat-y top center;
         height: 100%;
         
     }
