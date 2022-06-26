@@ -5,7 +5,7 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-size: 1920px;
-    background-position: top center;
+    background-position-x: center;
 }
 header .container .logo{
     background: url(LOGO2.png) no-repeat;
