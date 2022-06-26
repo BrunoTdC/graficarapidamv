@@ -4,8 +4,7 @@ body{
     background-image: url(fundo3.jpg);
     background-repeat: repeat-y;
     background-attachment: fixed;
-    background-size: 1920px;
-    background-position-x: center;
+    background-size: cover;
 }
 header .container .logo{
     background: url(LOGO2.png) no-repeat;
