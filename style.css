@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
 body{
-    background: url(fundo3.jpg) fixed no-repeat top center;
-    -webkit-background: url(fundo3.jpg) fixed no-repeat top center;
-    -moz-background: url(fundo3.jpg) fixed no-repeat top center;
+    background-image: url(fundo3.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 header .container .logo{
     background: url(LOGO2.png) no-repeat;
@@ -345,4 +346,3 @@ footer .row p{
 @media (min-width: 1400px) { 
 
  }
-
